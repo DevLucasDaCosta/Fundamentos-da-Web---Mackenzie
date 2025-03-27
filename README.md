@@ -23,13 +23,13 @@ Este é um projeto de um site estático para um Pet Shop Online, desenvolvido co
 ## 🖼️ Screenshots
 
 ### Homepage
-![Homepage](./_index.html.png)
+![Homepage](./imgs/_index.html.png)
 
 ### Página de Produtos
-![Produtos](./_produtos.html.png)
+![Produtos](./imgs/_produtos.html.png)
 
 ### Página de Contato
-![Contato](./_faleConosco.html.png)
+![Contato](./imgs/_faleConosco.html.png)
 
 ---
 
