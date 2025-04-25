@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Contato - Pet Shop Online</title>
+</head>
+
+<body>
+    <header>
+        <h1>Fale Conosco</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="faleConosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulário de Contato</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" id="nome" name="nome" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefone">Telefone:</label></td>
+                        <td><input type="tel" id="telefone" name="telefone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mensagem">Mensagem:</label></td>
+                        <td><textarea id="mensagem" name="mensagem" rows="4" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="produto">Produto de Interesse:</label></td>
+                        <td>
+                            <select id="produto" name="produto">
+                                <option value="racao">Ração para Cães</option>
+                                <option value="brinquedo">Brinquedos para Gatos</option>
+                                <option value="coleira">Coleiras e Guias</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="newsletter">Deseja receber promoções?</label></td>
+                        <td><input type="checkbox" id="newsletter" name="newsletter"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit">Enviar</button></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé com JavaScript -->
+    <script>
+        // Variáveis com informações fictícias
+        var nomeCompleto = "Lucas da Costa";
+        var anoCorrente = new Date().getFullYear();
+        var twitter = "@lucas_costa_ficticio";
+        var facebook = "@lucas.costa.ficticio";
+        var instagram = "@lucas_costa_ficticio";
+        var linkedin = "@lucas-costa-ficticio";
+        var sexo = "Masculino";
+        var polo = "Higienópolis";
+    
+        // Criando o rodapé
+        document.write('<footer>');
+        document.write('<div style="text-align: center;">');
+        document.write('<p>' + nomeCompleto + ' - Ano ' + anoCorrente + '</p>');
+        document.write('<p>Twitter: ' + twitter + '</p>');
+        document.write('<p>Facebook: ' + facebook + '</p>');
+        document.write('<p>Instagram: ' + instagram + '</p>');
+        document.write('<p>LinkedIn: ' + linkedin + '</p>');
+        document.write('<p>Sexo: ' + sexo + '</p>');
+        document.write('<p>Localização - polo: ' + polo + '</p>');
+        document.write('</div>');
+        document.write('</footer>');
+    </script>
+</body>
+
+</html>

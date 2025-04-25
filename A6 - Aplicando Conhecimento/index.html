@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Pet Shop Online</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Pet Shop Online!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="faleConosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja especializada em produtos para pets. Oferecemos ração, brinquedos, acessórios e muito mais!
+            </p>
+            <img src="src/images/petshop.png" alt="Pet Shop" width="720">
+        </section>
+
+        <section>
+            <h2>Confira nosso vídeo:</h2>
+            <video width="1280" height="720" controls>
+                <source src="src/videos/promocional.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+        </section>
+    </main>
+
+    <!-- Rodapé com JavaScript -->
+    <script>
+        // Variáveis com informações fictícias
+        var nomeCompleto = "Lucas da Costa";
+        var anoCorrente = new Date().getFullYear();
+        var twitter = "@lucas_costa_ficticio";
+        var facebook = "@lucas.costa.ficticio";
+        var instagram = "@lucas_costa_ficticio";
+        var linkedin = "@lucas-costa-ficticio";
+        var sexo = "Masculino";
+        var polo = "Higienópolis";
+    
+        // Criando o rodapé
+        document.write('<footer>');
+        document.write('<div style="text-align: center;">');
+        document.write('<p>' + nomeCompleto + ' - Ano ' + anoCorrente + '</p>');
+        document.write('<p>Twitter: ' + twitter + '</p>');
+        document.write('<p>Facebook: ' + facebook + '</p>');
+        document.write('<p>Instagram: ' + instagram + '</p>');
+        document.write('<p>LinkedIn: ' + linkedin + '</p>');
+        document.write('<p>Sexo: ' + sexo + '</p>');
+        document.write('<p>Localização - polo: ' + polo + '</p>');
+        document.write('</div>');
+        document.write('</footer>');
+    </script>
+</body>
+
+</html>
